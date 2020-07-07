@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"data":{"allBlogPost":{"nodes":[{"slug":"hello-world","name":"Hello world"}]},"allShowcase":{"nodes":[{"slug":"sscompucare","name":"sscompucare.yml"}]}},"pageContext":{}}}
+{"componentChunkName":"component---src-pages-index-js","path":"/","result":{"data":{"allBlogPost":{"nodes":[{"slug":"hello-world","name":"Hello world"}]},"allShowcase":{"nodes":[{"slug":"sscompucare","name":"S.S. Compucare"}]}},"pageContext":{}}}
