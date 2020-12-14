@@ -1,0 +1,91 @@
+section.project{
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 120px;
+}
+
+section.project h2,
+section.project .description{
+    text-align: center;
+}
+
+section.project .description{
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+section.project .links{
+    list-style: none;
+    
+}
+
+@media (max-width: 900px){
+    section.project .links{
+        margin-top: 60px;
+    }
+    
+}
+
+section.project .links li {
+    margin-top: 21px;
+}
+
+section.project .links li a{
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    padding: 15px;
+    font-size: 21px;
+}
+
+section.project .links li a:nth-child(1){
+    padding-top: 0;
+}
+
+section.project .links li a i{
+    color: #ffd700;
+    width: 60px;
+    text-align: center;
+    font-size: 24px;
+    text-shadow: 0 0 15px  #ffd700;
+}
+
+section.project h2 i{
+    color: #ffd700;
+    width: 45px;
+    text-shadow: 0 0 15px  #ffd700;
+    display: block;
+    margin: auto;
+}
+
+section.project .links li a:hover{
+    /* border-bottom: 1px solid #ffd700; */
+    text-decoration: underline;
+}
+
+
+@media (min-width: 900px){
+    section.project{
+        display: grid;
+        
+        grid-template-areas:    "project-title project-links"
+                                "project-description project-links"
+                                "project-description project-links";
+        
+        grid-template-rows: 90px 1fr;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 30px;
+    }
+
+    section.project h2{
+        grid-area: project-title;
+    }
+    section.project .description{
+        grid-area: project-description;
+    }
+    section.project ul.links{
+        grid-area: project-links;
+    }
+
+}
