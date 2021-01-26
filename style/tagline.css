@@ -1,16 +1,20 @@
 #tagline{
-    max-width: 900px;
-    margin: auto;
     height: 420px;
-    display: flex;
     background: url('../tagline_bg.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    
+    background-color: black;
 }
 
-h1{
+#tagline .content-container{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+
+}
+
+#tagline .content-container h1{
     padding: 30px;
     font-size: 42px;
     align-self: center;
@@ -21,7 +25,7 @@ h1{
         height: 600px;
     }
 
-    #tagline h1{
+    #tagline .content-container h1{
         font-size: 60px;
     }
 }
