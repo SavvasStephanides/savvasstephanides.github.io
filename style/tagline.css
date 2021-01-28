@@ -1,6 +1,6 @@
 #tagline{
     height: 420px;
-    background: url('../tagline_bg.jpg');
+    background: var(--tagline-background);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -11,12 +11,10 @@
     max-width: 900px;
     margin: auto;
     display: flex;
-
+    height: 100%;
 }
 
 #tagline .content-container h1{
-    padding: 30px;
-    font-size: 42px;
     align-self: center;
 }
 

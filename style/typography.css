@@ -1,7 +1,7 @@
 *{
-    font-family: 'Oswald', sans-serif;
+    font-family: var(--sitewide-font);
 }
 
 .handwritten{
-    font-family: 'Pacifico', cursive;
+    font-family: var(--title-font);
 }

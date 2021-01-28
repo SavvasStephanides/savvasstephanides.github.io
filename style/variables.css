@@ -1,6 +1,16 @@
 :root{
     --page-background: #393e46;
     --section-background: #222831;
+    --tagline-background: url('/tagline_bg.jpg');
     --icon-color: #32e0c4;
     --text-color: #eee;
+    --sitewide-font: 'Oswald', sans-serif;
+    --title-font: 'Pacifico', cursive;
+}
+
+body[theme="gc"]{
+    --page-background: url('/dancing_baby.gif');
+    --tagline-background: transparent;
+    --sitewide-font: 'Comic Sans', cursive;
+    --title-font: 'Comic Sans', cursive;
 }

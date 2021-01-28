@@ -5,5 +5,5 @@
 }
 
 body{
-    background-color: var(--page-background);
+    background: var(--page-background);
 }
